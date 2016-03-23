@@ -58,7 +58,6 @@ pre {
   word-wrap: normal;
 
   text-rendering: auto;
-  -webkit-font-smoothing: auto;
 }
 code {
   padding: 0;
@@ -298,7 +297,7 @@ img {
 
 
 .video {
-  width: 100%%;
+  width: 100%;
   margin: 0 0 24px 0;
 }
 .video__container {
@@ -397,19 +396,6 @@ a.twitter-nav-link {
 .twitter-nav-link:hover span {
   border-bottom-color: #C00;
 }
-.twitter-nav-link:before {
-  content: '';
-  background: url('../test/twitter.svg');
-  display: inline-block;
-  width: 0.8em;
-  height: 0.8em;
-  background-size: 0.7em 0.7em;
-  background-repeat: no-repeat;
-  background-position: 0 0.1em;
-  margin-right: 0.1em;
-}
-
-
 
 
 h2 {
