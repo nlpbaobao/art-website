@@ -287,6 +287,16 @@ margin-bottom: 26px;
 }
 */
 
+div.c-wrapper{
+  width: 80%; /* for example */
+ margin: auto;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+ width: 35%; /* use this, or not */
+ margin: 0 auto;
+}
 
 img {
   width: auto;
@@ -939,6 +949,3 @@ margin: 0 1px 1px 0;
     width: 109px;
   }
 }
-
-
-
